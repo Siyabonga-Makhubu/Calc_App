@@ -1,36 +1,63 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  background-image: url(numbers2.jpeg);
 }
+
 table {
   width: 500px;
-  color: #fff;
+  color: #c5deafdf;
   text-align: center;
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 10px;
+  border-radius: 20px;
   margin: auto;
 }
+.Calculator {
+  width: fit-content;
+  margin: 50px auto;
+  padding: 20px;
+  border: 5px solid red; 
+  border-radius: 25px; 
+  background-color: #333; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+}
 tr {
-  height: 16.02vh;
+  height: 90px;
   background-color: #4e494d;
 }
 td {
-  width: 50px;
+  width: 20px;
   border: 1px solid;
   text-align: center;
-  background-color: #4e494d;
+  background-color: #807e80;
+  border-radius: 10px;
 }
 #input_box {
-  background-color: #4e494d;
+  background-color: #807e80;
   text-align: right;
   width: 95%;
   color: #fff;
-  border: 0px;
+  border: none;
+  font-size: 20px;
 }
 .digitButton {
   background-color: #807e80;
+  border-radius: 50%;
 }
 .operatorButton {
-  background-color: #ff9e06;
+  background-color: #714e16;
+  border-radius: 50%;
+}
+.operatorButtonEqual {
+  background-color: #714e16;
+  border-radius: 50%;
 }
 .ACButton {
-  background-color: #656165;
+  background-color: #714e16;
+  border-radius: 50%;
+}
+.digitButtonZero {
+  background-color: #714e16;
+  border-radius: 50%;
 }
